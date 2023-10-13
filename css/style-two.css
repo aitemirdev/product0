@@ -157,6 +157,10 @@ body {
     padding-bottom: 50px;
 }
 
+.dark .logo-company h1 {
+    color: #FFFFFF;
+}
+
 .logo-general img {
     margin-right: 64px;
 }
@@ -171,12 +175,20 @@ body {
     background: #F5F5F5;
 }
 
+.dark #why {
+    background: #22343D;
+}
+
 .why h1 {
     color: #22343D;
     text-align: center;
     font-size: 34px;
     font-weight: 700;
     padding-bottom: 50px;
+}
+
+.dark .why h1 {
+   color: white;
 }
 
 .why-block h2 {
@@ -194,6 +206,14 @@ body {
     font-weight: 400;
     line-height: 27px;
     width: 350px;
+}
+
+.dark .why-block h2 {
+    color: white;
+}
+
+.dark .why-block p {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .why-general {
@@ -226,10 +246,19 @@ body {
     padding-bottom: 73px;
 }
 
+.dark .work h1 {
+    color: white;
+}
+
 .work-text h4 {
     color: #22343D;
     font-size: 20px;
     font-weight: 500;
+}
+
+.dark .work-text h2,
+.dark .work-text h4 {
+    color: white;
 }
 
 .work-text h2 {
@@ -245,6 +274,10 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+.dark .work-text p {
+    color: rgba(255, 255, 255, 0.44);
 }
 
 .work-block {
@@ -273,12 +306,20 @@ body {
     background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 100%);
 }
 
+.dark #who {
+    background: #22343D;
+}
+
 .who h1 {
     color: #22343D;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
     padding-bottom: 93px;
+}
+
+.dark .who h1 {
+    color: white;
 }
 
 .who-block h2 {
@@ -300,6 +341,12 @@ body {
     color: #000;
     font-size: 16px;
     font-weight: 500;
+}
+
+.dark .who-block h2,
+.dark .who-block h3,
+.dark .who-block p{
+    color: #FFFFFF;
 }
 
 .who-block {
