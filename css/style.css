@@ -565,30 +565,8 @@ body {
 
 /*contents start*/
 
-#contents {
+#slider {
     padding: 150px 0;
-}
-
-
-.contents h1 {
-    color: #22343D;
-    font-size: 34px;
-    font-weight: 700;
-}
-
-.dark .contents h1 {
-    color: white;
-}
-
-.contents p {
-    color: #22343D;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 8px 0 33px 0;
-}
-
-.dark .contents p {
-    color: white;
 }
 
 .swiper {
@@ -599,46 +577,56 @@ body {
 .swiper-slide {
     font-size: 18px;
     background: #fff;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.18);
     width: 348px;
     height: 359px;
-    border-radius: 8px;
-    border: 1px solid black;
-}
-
-.swiper-slide img {
-    width: 100%;
-    display: block;
-    border-radius: 8px 8px 0 0;
-    object-fit: cover;
-}
-
-.swiper-slide h4 {
-    color: #22343D;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 20px 0 12px 24px;
-}
-
-.swiper-slide h2 {
-    color: #22343D;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 40px;
-    width: 294px;
-    padding-left: 24px;
     transition: .5s;
+    padding-bottom: 30px;
 }
 
 .swiper-slide:hover > h2 {
     color: #02897A;
 }
 
-.swiper-wrapper{
-    display: flex;
-    justify-content: space-between;
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
 }
 
-/*contents end*/
+.slider h1 {
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.slider p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0 33px 0;
+}
+
+.swiper-slide h3 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0 12px 24px;
+}
+
+.swiper-slide h2 {
+    width: 294px;
+    padding-left: 24px;
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+
 
 
 /*table start*/
@@ -912,6 +900,10 @@ body {
     font-weight: 700;
 }
 
+.dark .logo-two h1 {
+    color: white;
+}
+
 .footer-icon {
     display: flex;
     padding-top: 15px;
@@ -927,12 +919,20 @@ body {
     font-weight: 500;
 }
 
+.dark .footer-one h1 {
+    color: white;
+}
+
 .footer-one a {
     color: #22343D;
     font-size: 16px;
     font-weight: 400;
     line-height: 35px;
     padding-top: 8px;
+}
+
+.dark .footer-one a {
+    color: white;
 }
 
 .footer-one a:hover {
@@ -952,6 +952,10 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+}
+
+.dark .footer-input h1 {
+    color: white;
 }
 
 .input-footer{
@@ -989,6 +993,10 @@ body {
     line-height: 30px;
     width: 394px;
     height: 31px;
+}
+
+.dark .footer h2{
+    color: white;
 }
 
 .footer-general {
