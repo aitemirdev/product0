@@ -1,0 +1,185 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #easy {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .product-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .product-block {
+        margin: 10px 0;
+    }
+
+    .management {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .management-text h3{
+        margin-top: 55px;
+    }
+
+    .support {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .support-text h3 {
+        margin-top: 55px;
+    }
+
+    .for {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .for-text h4 {
+        margin-top: 55px;
+    }
+
+    .table-general,
+    .say-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .table-block,
+    .say-block {
+        margin: 10px 0;
+    }
+
+    .join-block {
+        flex-direction: column;
+        height: 90%;
+        text-align: center;
+    }
+
+    .join-block-text {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header-nav a,
+    .header-btn-one,
+    .header-btn-two,
+    .header-btn-three {
+        display: none;
+    }
+
+    #table {
+        padding: 0;
+    }
+
+    .easy-general {
+        flex-wrap: wrap;
+    }
+
+    .easy-block {
+        width: 90%;
+    }
+
+    #easy {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-general {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .media-img {
+        width: 90%;
+        padding: 10px 0;
+    }
+
+    .join-block-text h1 {
+        width: 90%;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-text p {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .management-text p{
+        width: 356px;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+    }
+
+    .hero-btn button {
+        padding: 10px 23px;
+        font-size: 13px;
+    }
+
+    .hero-btn a {
+        padding: 10px 0 0 0;
+    }
+
+    .management-text p {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .support-text p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .support-text div h6 {
+        width: 80%;
+    }
+
+    .for-text p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .easy-block {
+        margin: 0 auto;
+    }
+
+    .media {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .hero-text h1 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 35px;
+    }
+}
